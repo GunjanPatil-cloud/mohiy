@@ -1,0 +1,6 @@
+{
+  "name": "Nexlivo — Folding Chair Startup",
+  "description": "Nexlivo: Smart Seating. Lasting Comfort. Complete overview of proposed folding chair concepts, business model, sustainable production plans, operations, and governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

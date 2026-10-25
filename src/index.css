@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #103D2E;
+  --color-forest-dark: #0A261D;
+  --color-forest-light: #18523E;
+  --color-brand: #21885B;
+  --color-brand-hover: #196D48;
+  --color-brand-light: #EBF7F1;
+  --color-brand-subtle: #DCF0E7;
+  --color-lime: #B5F45A;
+  --color-lime-hover: #9EE042;
+  --color-lime-light: #F4FDE9;
+  --color-softwhite: #F5F7F4;
+  --color-greygreen: #D6E5DE;
+  --color-greygreen-light: #EAF2EE;
+  --color-greygreen-dark: #8CA89C;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #F5F7F4;
+    color: #111A15;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid #21885B;
+    outline-offset: 2px;
+  }
+}
